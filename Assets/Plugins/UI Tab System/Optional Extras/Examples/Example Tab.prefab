@@ -25,8 +25,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
+      propertyPath: _states._activeState.IconEase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._activeState.SizeEase
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._activeState.TextEase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
       propertyPath: _states._lockedState.TextEase
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._activeState.MinSize.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._activeState.MinSize.y
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
@@ -55,6 +80,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
+      propertyPath: _states._activeState.IconSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8fd322918aff9644aab765b0776f3e2c,
+        type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
       propertyPath: _states._disabledState.IconEase
       value: 12
       objectReference: {fileID: 0}
@@ -80,6 +111,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
+      propertyPath: _states._inactiveState.IconEase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._inactiveState.SizeEase
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._inactiveState.TextEase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
       propertyPath: _states._lockedState.IconSprite
       value: 
       objectReference: {fileID: 21300000, guid: 41fe73e3157681843bd98fa52d61d63d,
@@ -102,6 +148,16 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
+      propertyPath: _states._inactiveState.MinSize.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._inactiveState.MinSize.y
+      value: 230
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
       propertyPath: _states._lockedState.TextColor.a
       value: 0
       objectReference: {fileID: 0}
@@ -113,14 +169,81 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
+      propertyPath: _states._inactiveState.IconSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8fd322918aff9644aab765b0776f3e2c,
+        type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
       propertyPath: _states._disabledState.TextColor.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._inactiveState.TextColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._activeState.AdditiveSortig
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.IconEase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.SizeEase
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.TextEase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._lockedState.TextEase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._activeState.OverrideSorting
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
       propertyPath: _states._enabledState.AdditiveSortig
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.MinSize.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.MinSize.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._lockedState.MinSize.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._lockedState.MinSize.y
+      value: 230
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._activeState.BackgroundSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 00f42b907aab9b644b393f94bed9c47e,
+        type: 3}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
       propertyPath: _states._enabledState.OverrideSorting
@@ -134,10 +257,57 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
+      propertyPath: _stateSettings._activeState.IconSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8fd322918aff9644aab765b0776f3e2c,
+        type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._inactiveState.IconEase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._inactiveState.SizeEase
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._inactiveState.TextEase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._lockedState.IconSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 41fe73e3157681843bd98fa52d61d63d,
+        type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._activeState.AnimationDuration
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
       propertyPath: _states._enabledState.BackgroundSprite
       value: 
       objectReference: {fileID: 21300000, guid: 00f42b907aab9b644b393f94bed9c47e,
         type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._inactiveState.MinSize.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._inactiveState.MinSize.y
+      value: 230
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._lockedState.TextColor.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
       propertyPath: _states._disabledState.BackgroundSprite
@@ -151,13 +321,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
+      propertyPath: _states._inactiveState.BackgroundSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f751adb54bd87df4a81f5fe6ae29c065,
+        type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._inactiveState.IconSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8fd322918aff9644aab765b0776f3e2c,
+        type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
       propertyPath: _states._disabledState.AnimationDuration
       value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
+      propertyPath: _states._inactiveState.AnimationDuration
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._inactiveState.TextColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _states._activeState.TargetIconPosition.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.AdditiveSortig
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
       propertyPath: _states._enabledState.TargetIconPosition.y
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.OverrideSorting
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.BackgroundSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 00f42b907aab9b644b393f94bed9c47e,
+        type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._lockedState.BackgroundSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 97b8b64b6a3d3da4085458ad020e4205,
+        type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.AnimationDuration
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._inactiveState.BackgroundSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f751adb54bd87df4a81f5fe6ae29c065,
+        type: 3}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._inactiveState.AnimationDuration
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}
@@ -168,6 +403,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _states._lockedState.ObjectToDisable.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
+        type: 3}
+      propertyPath: _stateSettings._activeState.TargetIconPosition.y
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1683366193312053559, guid: a69268deff3011f4ebd5e43cb31b6026,
         type: 3}

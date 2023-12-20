@@ -7,9 +7,9 @@ namespace TabSystemLogic
     public class TabStatesList 
     {
         [SerializeField]
-        private TabState _enabledState;
+        private TabState _activeState;
         [SerializeField]
-        private TabState _disabledState;
+        private TabState _inactiveState;
         [SerializeField]
         private TabState _lockedState;
 
@@ -17,10 +17,10 @@ namespace TabSystemLogic
         {
             return state switch
             {
-                State.Enabled => _enabledState,
-                State.Disabled => _disabledState,
+                State.Active => _activeState,
+                State.Inactive => _inactiveState,
                 State.Locked => _lockedState,
-                _ => _disabledState
+                _ => _inactiveState
             };
         }
     }
