@@ -150,13 +150,17 @@ MonoBehaviour:
       OverrideIconPosition: 1
       TargetIconPosition: {x: 0, y: 0, z: 0}
       IconEase: 0
+      IconDurationCoefficient: 1
       BackgroundSprite: {fileID: 0}
       BackgroundColor: {r: 1, g: 1, b: 1, a: 1}
       BackgroundEase: 0
+      BackgroundDurationCoefficient: 1
       TextColor: {r: 1, g: 1, b: 1, a: 1}
       TextEase: 0
+      TextDurationCoefficient: 0.6
       MinSize: {x: 0, y: 0}
       SizeEase: 0
+      LayoutDurationCoefficient: 0.5
       ObjectToEnable: []
       ObjectToDisable: []
     _disabledState:
@@ -169,13 +173,17 @@ MonoBehaviour:
       OverrideIconPosition: 1
       TargetIconPosition: {x: 0, y: 0, z: 0}
       IconEase: 0
+      IconDurationCoefficient: 1
       BackgroundSprite: {fileID: 0}
       BackgroundColor: {r: 1, g: 1, b: 1, a: 1}
       BackgroundEase: 0
+      BackgroundDurationCoefficient: 1
       TextColor: {r: 1, g: 1, b: 1, a: 1}
       TextEase: 0
+      TextDurationCoefficient: 0.6
       MinSize: {x: 0, y: 0}
       SizeEase: 0
+      LayoutDurationCoefficient: 0.5
       ObjectToEnable: []
       ObjectToDisable: []
     _lockedState:
@@ -188,13 +196,17 @@ MonoBehaviour:
       OverrideIconPosition: 1
       TargetIconPosition: {x: 0, y: 0, z: 0}
       IconEase: 0
+      IconDurationCoefficient: 1
       BackgroundSprite: {fileID: 0}
       BackgroundColor: {r: 1, g: 1, b: 1, a: 1}
       BackgroundEase: 0
+      BackgroundDurationCoefficient: 1
       TextColor: {r: 1, g: 1, b: 1, a: 1}
       TextEase: 0
+      TextDurationCoefficient: 0.6
       MinSize: {x: 0, y: 0}
       SizeEase: 0
+      LayoutDurationCoefficient: 0.5
       ObjectToEnable: []
       ObjectToDisable: []
   _targetObject: {fileID: 0}
@@ -549,7 +561,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
