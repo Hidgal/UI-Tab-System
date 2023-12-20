@@ -25,9 +25,9 @@ Simply put this package in you project and import files.
 Package contains Optional Extras folder with example of animated menu.
 
 ## Tab System Setup
-1. Find **Tab** prefab in Assets/Plugins/UI Tab System/Prefabs and create your own prefab variant from it (or get example tab prefab variant from Assets/Plugins/UI Tab System/Optional Extras/Examples).
-2. Add Tab System prefab (from Assets/Plugins/UI Tab System/Prefabs) to your Canvas.
-3. Add your tab prefab variants to the child objects of Tab System prefab
+1. Find **Tab** prefab in *Assets/Plugins/UI Tab System/Prefabs* and create your own prefab variant from it (or get example tab prefab variant from Assets/Plugins/UI Tab System/Optional Extras/Examples).
+2. Add **Tab System** prefab (from *Assets/Plugins/UI Tab System/Prefabs*) to your Canvas.
+3. Add your tab prefab variants to the child objects of **Tab System** prefab
 4. *Optional: you can right click on the Tab System component and click on Get Tabs menu for preventing getting childs in Awake*
 
 ## Tab Settings
