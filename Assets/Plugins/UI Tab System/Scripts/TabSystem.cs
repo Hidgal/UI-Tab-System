@@ -23,14 +23,14 @@ namespace TabSystemLogic
 
         private void OnEnable()
         {
-            var state = State.Enabled;
+            var state = State.Active;
             foreach (var tab in _tabs)
             {
                 if (!tab) continue;
                 if (tab.TabState == State.Locked) continue;
 
                 tab.SetState(state);
-                state = State.Disabled;
+                state = State.Inactive;
             }
         }
 
@@ -52,7 +52,7 @@ namespace TabSystemLogic
                 if (tab == triggeredTab) continue;
                 if (tab.TabState == State.Locked) continue;
 
-                tab.SetState(State.Disabled);
+                tab.SetState(State.Inactive);
             }
         }
 

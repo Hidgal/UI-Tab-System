@@ -8,8 +8,8 @@ namespace TabSystemLogic
 {
     public enum State
     {
-        Enabled,
-        Disabled,
+        Active,
+        Inactive,
         Locked
     }
 
@@ -27,7 +27,7 @@ namespace TabSystemLogic
         public LayoutElement LayoutElement => _layoutElement;
         public Button Button => _button;
         public Canvas Canvas => _canvas;
-        public TabStatesList States => _states;
+        public TabStatesList States => _stateSettings;
 
         [SerializeField] 
         private State _tabState;
@@ -48,7 +48,7 @@ namespace TabSystemLogic
         
         [Space]
         [SerializeField] 
-        private TabStatesList _states;
+        private TabStatesList _stateSettings;
 
         [Space]
         [SerializeField] 
@@ -98,15 +98,15 @@ namespace TabSystemLogic
 
         public virtual void OnClick()
         {
-            if (TabState == State.Enabled) return;
+            if (TabState == State.Active) return;
 
-            SetState(State.Enabled);
+            SetState(State.Active);
         }
 
         public virtual void SetState(State targetState, bool invokeEvents = true)
         {
             _tabState = targetState;
-            _isActive = TabState == State.Enabled;
+            _isActive = TabState == State.Active;
 
             var state = States.GetValue(TabState);
             state.ApplyState(this);
