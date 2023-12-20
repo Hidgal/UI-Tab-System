@@ -36,7 +36,7 @@ Package contains Optional Extras folder with example of animated menu.
       - **Active** - state of currently selected tab
       - **Inactive** - state of other non-selected tabs
       - **Locked** - state of locked tab. *In the **locked** state tab doesn`t respond to clicks*. You can mark tab as Locked via Inspector and it will be locked in playmode.
- - **State Settings** - settings for every available Tab State.
+ - **State Settings** - settings for every Tab State.
     Available settings:
       - **Animation Duration** - duration of tab animation in current state.        
       - **Is Button Active** - should button be interactable in current state.        
