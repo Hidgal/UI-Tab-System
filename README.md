@@ -39,7 +39,7 @@ Package contains Optional Extras folder with example of animated menu.
  - **State Settings** - settings for every available Tab State.
     Available settings:
       - **Animation Duration** - duration of tab animation in current state.        
-      - **Is Button Active** - should button be active in current state.        
+      - **Is Button Active** - should button be interactable in current state.        
       - **Override Sorting** - should sorting of tab`s Canvas be overriden in current state.
       - **Additive Sorting** - if **Override Sorting** if enabled, adds this number to the sorting of root Canvas.
       - **...DurationCoefficient** - you can change duration of animation of each tab element by this coefficient.
