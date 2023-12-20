@@ -1,6 +1,6 @@
 <img src="Documentation/Images/tab_menu_gif.gif?raw=true" alt="Menu Example" width="280px" height="498px"/>
 
-# UI-Tab-System
+# UI Tab System
 Simple animated tab menu system for Unity.
 
 **!!! Requires DoTween and TextMeshPro !!!**
