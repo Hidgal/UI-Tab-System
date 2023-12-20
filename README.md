@@ -18,7 +18,7 @@ Simple animated tab menu system for Unity.
 </details>
 
 ## Installation
-You can download last release [HERE](https://github.com/Hidgal/UI-Tab-System/releases).
+You can download latest release [HERE](https://github.com/Hidgal/UI-Tab-System/releases).
 
 Simply put this package in you project and import files.
 
