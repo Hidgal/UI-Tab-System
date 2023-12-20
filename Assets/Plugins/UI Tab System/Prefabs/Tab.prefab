@@ -139,8 +139,8 @@ MonoBehaviour:
   _layoutElement: {fileID: 7507556641665112595}
   _button: {fileID: 5785606968144995027}
   _canvas: {fileID: 2214764693388891244}
-  _states:
-    _enabledState:
+  _stateSettings:
+    _activeState:
       AnimationDuration: 0
       IsButtonActive: 1
       OverrideSorting: 0
@@ -163,7 +163,7 @@ MonoBehaviour:
       LayoutDurationCoefficient: 0.5
       ObjectToEnable: []
       ObjectToDisable: []
-    _disabledState:
+    _inactiveState:
       AnimationDuration: 0
       IsButtonActive: 1
       OverrideSorting: 0
@@ -188,7 +188,7 @@ MonoBehaviour:
       ObjectToDisable: []
     _lockedState:
       AnimationDuration: 0
-      IsButtonActive: 1
+      IsButtonActive: 0
       OverrideSorting: 0
       AdditiveSortig: 0
       IconSprite: {fileID: 0}
